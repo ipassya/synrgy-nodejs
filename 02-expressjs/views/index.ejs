@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-3 mynav-one">
+      <div class="container">
+        <a class="navbar-brand" href="#home">LOGO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item px-lg-5 px-sm-0">
+              <a class="nav-link" href="#articles">ARTICLES</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link border-button px-4 d-inline-block"
+                href="#subscribe"
+                >SUBSCRIBE</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Banner -->
+    <section
+      id="home"
+      class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="content text-center mycolor-brown">
+        <h1>ART OF PLANT</h1>
+        <p class="underline d-inline-block pt-4">ALL ABOUT ART OF NATURE</p>
+      </div>
+    </section>
+    <!-- End Banner -->
+
+    <!-- Articles -->
+    <section id="articles" class="container-fluid text-center py-5 mybg-grey">
+      <h1 class="h1-content underline d-inline-block">LATEST ARTICLES</h1>
+      <div class="cards row my-4 justify-content-center">
+        <div class="col-lg-3 col-sm-12 d-flex justify-content-center">
+          <div class="card shadow rounded" style="width: 20rem">
+            <img src="img/article-1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body mt-4 mb-5 mx-4">
+              <h1 class="card-title top-line">Title Of Articles</h1>
+              <p class="card-text text-start">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-lg-3 col-sm-12 my-lg-0 my-sm-4 d-flex justify-content-center"
+        >
+          <div class="card shadow rounded" style="width: 20rem">
+            <img src="img/article-2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body mt-4 mb-5 mx-4">
+              <h1 class="card-title top-line">Title Of Articles</h1>
+              <p class="card-text text-start">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12 d-flex justify-content-center">
+          <div class="card shadow rounded" style="width: 20rem">
+            <img src="img/article-3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body mt-4 mb-5 mx-4">
+              <h1 class="card-title top-line">Title Of Articles</h1>
+              <p class="card-text text-start">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Articles -->
+
+    <!-- About -->
+    <section id="about" class="container-fluid">
+      <div class="row">
+        <img
+          src="img/about.jpg"
+          alt=""
+          class="col-lg-6 col-sm-10 offset-lg-0 offset-sm-1 my-lg-0 my-sm-5"
+        />
+        <div
+          class="about-content col-lg-6 col-sm-12 m-auto text-center p-5 pt-2"
+        >
+          <h1 class="h1-content underline d-inline-block">ABOUT</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Subscribe -->
+    <section
+      id="subscribe"
+      class="m-auto mybg-grey text-center container-fluid row"
+    >
+      <div class="col-lg-4 col-sm-9 m-auto">
+        <h1 class="h1-content">SUBSCRIBE</h1>
+        <p class="">Sing up to our newsletters</p>
+        <input type="text" class="myinput" placeholder="Your email here.." />
+        <button class="border-button">SUBMIT</button>
+      </div>
+    </section>
+    <!-- End Subscribe -->
+
+    <!-- Footer -->
+    <section id="footer">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#home">Home</a></li>
+      </ul>
+    </section>
+    <!-- End Footer -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My JS -->
+    <script type="text/javascript">
+      var nav = document.querySelector("nav.mynav-one");
+
+      window.addEventListener("scroll", function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add("bg-dark", "shadow", "navbar-dark");
+        } else {
+          nav.classList.remove("bg-dark", "shadow", "navbar-dark");
+        }
+      });
+    </script>
+  </body>
+</html>

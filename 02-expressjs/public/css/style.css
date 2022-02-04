@@ -1,0 +1,166 @@
+/* My Utils */
+.underline::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid rgba(65, 65, 65, 0.75);
+  width: 35%;
+  margin: auto;
+  padding-bottom: 13px;
+}
+
+.top-line::before {
+  content: "";
+  display: block;
+  border-top: 2px solid rgba(65, 65, 65, 0.75);
+  width: 20%;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.h1-content {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #414141;
+}
+
+.border-button {
+  border: solid 1px #414141;
+}
+
+.mybg-grey {
+  background-color: #f4f7f4;
+}
+
+.mycolor-brown {
+  color: #414141 !important;
+}
+
+.myinput {
+  border: 3px solid #ffffff;
+  background-color: #e9ece9;
+  width: 100%;
+  height: 40px;
+  margin: 20px 0 32px 0;
+}
+
+.myinput::placeholder {
+  color: #414141;
+  padding-left: 15px;
+}
+
+body,
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Banner */
+.banner-image {
+  background-image: url("../img/hero-image.jpg");
+  background-size: cover;
+  height: 650px;
+}
+
+.banner-image .content h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 50px;
+}
+
+.banner-image .content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* Navbar */
+.navbar {
+  color: #414141;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 33px;
+}
+
+.navbar .navbar-brand {
+  font-weight: bold;
+}
+
+/* card */
+.card-title {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #414141;
+}
+
+.card-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #414141;
+}
+
+/* about */
+#about p {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: justify;
+  color: #000000;
+}
+
+/* Subscribe */
+#subscribe {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#subscribe button {
+  padding: 10px 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* footer */
+#footer ul {
+  list-style-type: none;
+  text-align: right;
+  margin: 0 30px;
+}
+
+#footer li {
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+#footer li a {
+  text-align: center;
+  text-decoration: none;
+  color: #414141;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+  #about img {
+    margin-left: -15px;
+  }
+
+  /* #about img.detail {
+    margin-right: -15px;
+  } */
+}

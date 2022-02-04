@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+
+    <title>Halaman Detail</title>
+  </head>
+
+  <body>
+    <!-- Navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-3 mynav-one">
+      <div class="container">
+        <a class="navbar-brand" href="#home">LOGO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mx-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item px-lg-5 px-sm-0">
+              <a class="nav-link" href="#articles">ARTICLES</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link border-button px-4 d-inline-block"
+                href="#subscribe"
+                >SUBSCRIBE</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <div class="container">
+      <!-- Detail -->
+      <section id="detail" class="pb-5">
+        <div class="row">
+          <div class="col-7">
+            <img
+              src="img/article-1.jpg"
+              alt=""
+              width="100%"
+              class="rounded-3"
+            />
+          </div>
+          <div class="col-5 m-auto text-center">
+            <h1>The Articles</h1>
+            <p class="text-start">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- End Detail -->
+
+      <!-- More Image -->
+      <section id="more-img" class="py-5">
+        <div class="row text-center">
+          <div class="col-3">
+            <img
+              src="img/article-3.jpg"
+              alt=""
+              width="100%"
+              class="rounded-3"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="img/article-2.jpg"
+              alt=""
+              width="100%"
+              class="rounded-3"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="img/article-3.jpg"
+              alt=""
+              width="100%"
+              class="rounded-3"
+            />
+          </div>
+          <div class="col-3">
+            <img
+              src="img/article-2.jpg"
+              alt=""
+              width="100%"
+              class="rounded-3"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- More Image -->
+    </div>
+
+    <div class="container-fluid">
+      <!-- About -->
+      <section id="about" class="py-5">
+        <div class="row">
+          <div
+            class="about-content offset-lg-1 col-lg-5 col-sm-12 m-auto text-center p-5 pt-2"
+          >
+            <h1 class="h1-content underline d-inline-block">ABOUT</h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>
+          </div>
+          <img
+            src="img/about.jpg"
+            alt=""
+            class="col-lg-6 col-sm-10 offset-lg-0 offset-sm-1 my-lg-0 my-sm-5 detail"
+          />
+        </div>
+      </section>
+      <!-- End About -->
+
+      <!-- Price -->
+      <section id="price" class="py-5">
+        <div class="row">
+          <div class="col-2">
+            <img src="img/price.jpg" alt="" width="100%" height="350px" />
+          </div>
+          <div class="col-8">
+            <div class="card-price rounded-3 shadow-sm ms-4">
+              <h1>Price</h1>
+              <table>
+                <tr>
+                  <td colspan="2">List Package:</td>
+                </tr>
+                <tr>
+                  <td style="width: 600px">1. Plant Bucket 1 So Awesome</td>
+                  <td class="text-end">Rp. 340.000</td>
+                </tr>
+                <tr>
+                  <td>2. Sun Flower Bucket 2 Amaze</td>
+                  <td class="text-end">Rp. 570.000</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td class="text-end">Rp. 910.000</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5">
+          <div class="col-10 text-end">
+            <button class="btn mybtn-green rounded-3">Buy Products</button>
+          </div>
+        </div>
+      </section>
+      <!-- End Price -->
+    </div>
+    <!-- Footer -->
+    <section id="footer-green">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#home">Home</a></li>
+      </ul>
+    </section>
+    <!-- End Footer -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My JS -->
+    <script type="text/javascript">
+      var nav = document.querySelector("nav.mynav-one");
+
+      window.addEventListener("scroll", function () {
+        if (window.pageYOffset > 100) {
+          nav.classList.add("bg-dark", "shadow", "navbar-dark");
+        } else {
+          nav.classList.remove("bg-dark", "shadow", "navbar-dark");
+        }
+      });
+    </script>
+  </body>
+</html>

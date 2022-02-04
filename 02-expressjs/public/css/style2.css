@@ -1,0 +1,166 @@
+nav.mynav-green {
+  background-color: #6cbe5e;
+}
+
+/* Navbar */
+.mynav-green {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 33px;
+}
+
+.mynav-green .navbar-brand {
+  font-weight: bold;
+}
+
+.btn-subs-green {
+  border: 1px solid white;
+  font-size: 14px;
+  line-height: 18px;
+  margin: auto;
+}
+
+/* Banner Product */
+.banner-image-product {
+  background-image: url("../img/banner-product.jpg");
+  background-size: cover;
+}
+.banner-image-product::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(19, 19, 19, 0.5);
+  position: absolute;
+}
+
+.banner-image-product .content {
+  color: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+
+.banner-image-product .content h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 50px;
+}
+
+.banner-image-product .content p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+/* Card product */
+#product .card-product {
+  position: relative;
+  width: 325px;
+  background-color: #fafafa;
+}
+#product .card-product-content {
+  display: block;
+  width: 100%;
+}
+#product .card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(89, 89, 89, 0.69);
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+#product .card-overlay-blur {
+  backdrop-filter: blur(2px);
+}
+#product .card-overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+#product .card-overlay:hover {
+  opacity: 1;
+}
+#product .card-overlay:hover > * {
+  transform: translateY(0);
+}
+#product .card-product-content .card-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#detail {
+  margin-top: 100px;
+}
+
+#price .card-price {
+  height: 350px;
+  background-color: #f9f9f9;
+  padding: 50px;
+  padding-left: 75px;
+}
+
+#price .card-price h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+#price .card-price table {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 45px;
+}
+
+/* button */
+.mybtn-green {
+  background-color: #6cbe5e;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 15px 40px;
+}
+
+/* footer */
+#footer-green {
+  background-color: #6cbe5e;
+}
+#footer-green ul {
+  list-style-type: none;
+  text-align: right;
+  margin: 0 30px;
+}
+
+#footer-green li {
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+#footer-green li a {
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}
